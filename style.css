@@ -1,0 +1,52 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #d1a05c;
+  padding: 20px;
+  text-align: center;
+}
+.branding h1 {
+  margin: 0;
+}
+section {
+  padding: 20px;
+}
+.gallery {
+  text-align: center;
+}
+.gallery img {
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+.feedback-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.feedback-form input,
+.feedback-form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+.feedback-form button {
+  background-color: #d1a05c;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.feedback-form button:hover {
+  background-color: #b98c4e;
+}
+footer {
+  text-align: center;
+  background: #f4e3c1;
+  padding: 10px;
+}
